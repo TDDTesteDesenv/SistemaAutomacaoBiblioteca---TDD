@@ -67,7 +67,7 @@ public class Usuario implements Comparable<Object> {
 		this._nome = _nome;
 	}
 
-	protected LinkedList<Livro> getLivros() {
+	public LinkedList<Livro> getLivros() {
 		return _livros;
 	}
 
